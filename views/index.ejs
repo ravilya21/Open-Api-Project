@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Cocktail</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Let's Make a Cocktail</h1>
+        <p>Which day is today?</p>
+        <div class="buttons">
+            <!-- Button for choosing a day -->
+            <form action="/cocktail" method="GET">
+                <button type="submit" name="day" value="monday" class="day-button">Monday</button>
+                <button type="submit" name="day" value="tuesday" class="day-button">Tuesday</button>
+                <button type="submit" name="day" value="wednesday" class="day-button">Wednesday</button>
+                <button type="submit" name="day" value="thursday" class="day-button">Thursday</button>
+                <button type="submit" name="day" value="friday" class="day-button">Friday</button>
+                <button type="submit" name="day" value="saturday" class="day-button">Saturday</button>
+                <button type="submit" name="day" value="sunday" class="day-button">Sunday</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= name %></title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="cocktail-body">
+    <container class="cocktail-container">
+    <div class="cocktail-card ">
+        <h1 class="cocktail-name"><%= name %></h1>
+        <img src="<%= image %>" alt="<%= name %>" style="max-width: 300px; border-radius: 10px;" class="cocktail-image">
+        <p class="cocktail-instructions"><%= instructions %></p>
+        <a href="/" class="day-button">Back</a>
+    </div>
+</container>
+</body>
+</html>

@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #FFD700, #FF6347, #FF69B4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.day-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 105, 180, 0.8);
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.day-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.cocktail-body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #ffe4b5, #ffdab9);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.cocktail-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.cocktail-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #d35400;
+    margin-bottom: 20px;
+}
+
+.cocktail-card {
+    background: #fff;
+    border: 3px solid #f39c12;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.cocktail-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-bottom: 15px;
+}
+
+.cocktail-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.cocktail-instructions {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
